@@ -1168,8 +1168,6 @@ a.footer-contact-item:hover {
   }
 }
 
-/* En notebooks anchos mantenemos la composición de escritorio y solo
-   comprimimos tamaños y espacios para evitar cortes. */
 @media (min-width: 1101px) and (max-width: 1366px) {
   .navbar,
   .third-section,
