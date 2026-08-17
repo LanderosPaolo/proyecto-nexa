@@ -1177,6 +1177,11 @@ a.footer-contact-item:hover {
     --notebook-side-space: 4%;
   }
 
+  .main-container {
+    min-width: 0;
+    padding-right: 32px;
+  }
+
   .navbar {
     width: 92%;
   }
@@ -1186,8 +1191,25 @@ a.footer-contact-item:hover {
     grid-template-columns: 53% 47%;
   }
 
+  .title,
+  .main-container > p {
+    max-width: 100%;
+  }
+
   .title {
     font-size: clamp(48px, 4.25vw, 56px);
+  }
+
+  .img-first-container {
+    width: calc(100% + 80px);
+    min-width: 0;
+    margin-left: 0;
+  }
+
+  .img-first-container img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .first-icons-container {
